@@ -8,7 +8,7 @@ resource "kubernetes_service" "grafana_service" {
       name = "grafana"
     }
     port {
-      port = 3000
+      port = 80
       protocol = "TCP"
       target_port = 3000
     }

@@ -8,10 +8,11 @@ resource "kubernetes_service" "prometheus_service" {
       name = "prometheus"
     }
     port {
-      port = 9090
+      port = 80
       protocol = "TCP"
-      target_port = 9090
+      targetort = 9090
     }
     type = "LoadBalancer"
   }
 }
+
