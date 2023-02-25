@@ -1,5 +1,0 @@
-variable AWS_PROFILE {}
-
-variable AWS_REGION {
-  default = "us-west-2"
-}
